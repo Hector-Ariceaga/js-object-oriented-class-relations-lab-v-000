@@ -19,6 +19,7 @@ class Driver {
   }
   
   passengers() {
+    this.trips()
     return this.trips().map(
       function(trip) {
         return trip.passenger()
